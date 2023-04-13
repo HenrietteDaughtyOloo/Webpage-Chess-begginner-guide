@@ -1,0 +1,167 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2.0;
+  background-color: silver;
+  min-width: 289px;
+
+}
+
+#firstHeading{
+      margin-left: 10%;
+    }
+  #introductionSection{
+
+  }
+  #first{
+    display: block;
+    width: 20%;
+
+  }
+  section pictured{
+    width: 10%;
+  }
+  #chessPieces{
+    background-size: 100%;
+    opacity: 100%;
+  }
+
+#onTheSide{
+  position: fixed;
+  min-width: 289px;
+  background-color: black;
+
+  margin-top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 120%;
+}
+
+#onTheSide .nav-item {
+  display: grid;
+  padding: 10px 30px;
+  color: green;
+  font-weight: bolder;
+  text-decoration:overline;
+  cursor:progress;
+  height: 45%;
+}
+#aboutChess{
+  color: black;
+}
+
+ul {
+  height: 39%;
+  padding: 0;
+  overflow-y:scroll;
+  overflow-wrap:normal;
+}
+
+li {
+  color: whitesmoke;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+#context {
+  background-image: url(Images/color.jpg);
+  background-size: 100%;
+  position: absolute;
+  margin-left: 300px;
+  padding: 25px;
+  font-style: italic;
+  color: black;
+  font-size: larger;
+}
+#context h2 {
+  text-align: left;
+  margin: 0px;
+}
+h1{
+  color: whitesmoke;
+}
+
+
+h2 {
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+  text-decoration-line: underline;
+}
+
+section article {
+  color: rgb(20, 20, 20);
+  margin: 15px;
+  
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+pre {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+#beginnerStrategies{
+}
+table, th, td {
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 815px) {
+  /* Media-Queries for mobile phones: */
+  #onTheSide ul {
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    height: 207px;
+    height: 100%;
+    border: solid 2px;
+  
+
+  }
+
+  #onTheSide {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-y:pointer;
+    max-height: 375px;
+    border-bottom: 1px solid;
+
+  }
+
+  #context{
+    position: relative;
+
+    margin-left: 0px;
+    margin-top: 370px;
+  }
+}
+
+/*@media only screen and (max-width: 400px) {
+  #context {
+    margin-left: -10px;
+  }
+}
